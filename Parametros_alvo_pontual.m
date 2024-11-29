@@ -4,7 +4,7 @@ clear all; clc;
 %coloca-se novos alvos nos vetores offset_alvo_azimute e offset_alvo_range.
 
 %kaiser_beta = 2.5;
-squint_angle =0*pi/180; 
+squint_angle = 0*pi/180; 
 offset_alvo_azimute = [0.0e0,-0.1e0,0.2e0]; %% coloque valores entre -1.2 até 1.2 (em segundos)
 offset_alvo_range = [0.0e-6,-0.4e-6,0.0e-6]; %% valores entre -3e-6 até 3e-6
 
